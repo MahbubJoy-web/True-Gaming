@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+
+<!-- -================= Error =============== -->
+  <div class="error ErrorText"></div>
+<!-- -================= Error =============== -->
+ <!-- Player 1 Form -->
+ <form class="main PlayerOne" action="">
+  <div class="input-container">
+      <div class="input-content">
+          <div class="input-dist">
+              <div class="input-type">
+                  <h2 class="playerName">Player-1</h2>
+                  <input onkeydown="entwr (event)" class="PlayerOneInput" type="number" placeholder="Choose Number" />
+                  <button onclick=" btn()" type="button" class="playerOneButton">Run</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</form>
+
+<!-- Player 2 Form (optional) -->
+<form class="main PlayerTwo" action="">
+  <div class="input-container">
+      <div class="input-content">
+          <div class="input-dist">
+              <div class="input-type">
+                <div class="fun">
+                  <h2 class="playerName">Player-2</h2>
+                  <p class="ChanceNumber"><span class="dynaNumber"></span>/5</p>
+                </div>
+                  <input onkeydown="entwr(event)" class="PlayerTwoInput" type="number" placeholder="Choose Number" />
+                  <button onclick=" button()" type="button" class="playerTwoButton">Run</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</form>
+<!-- ===============winner=========== -->
+<div class="winner">
+  <h2 class="Winner_text"></h2>
+  <img src="https://media0.giphy.com/media/wX7I4l8SfFyG8rqhsd/giphy.gif?cid=6c09b9527vvlgrol4n60cm8tlkkbgswkd8dxb0a8hf9rxife&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="">
+</div>
+===============winner===========
+
+<script src="JS/script.js"></script>
+</body>
+</html>
